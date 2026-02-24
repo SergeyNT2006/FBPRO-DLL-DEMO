@@ -1,13 +1,10 @@
 # Build outputs (BENCHMARK only; root bin/ with FBPRO.dll is kept)
-/BENCHMARK/bin/
+# Ignore only Debug/ and obj/ so BENCHMARK/bin/Release/ is tracked (prebuilt exe)
+/BENCHMARK/bin/Debug/
 /BENCHMARK/obj/
-# Allow prebuilt benchmark exe for users who don't want to build
-!/BENCHMARK/bin/Release/
-!/BENCHMARK/bin/Release/net6.0/
-!/BENCHMARK/bin/Release/net6.0/*
+**/obj/
 # Exclude debug symbols from the prebuilt release
 BENCHMARK/bin/Release/net6.0/*.pdb
-**/obj/
 *.user
 *.suo
 *.cache

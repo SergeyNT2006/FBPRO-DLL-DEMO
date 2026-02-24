@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FBPRO</name>
+    </assembly>
+    <members>
+        <member name="T:FBPRO.ProjectionHelper">
+            <summary>
+            FBPRO - Fast Projection Without Trigonometry!
+            Projection helpers using dot-product based calculations (no atan2/sin/cos).
+            </summary>
+        </member>
+        <member name="M:FBPRO.ProjectionHelper.HeightToSegment(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Perpendicular distance from a point to the line defined by the segment.
+            </summary>
+        </member>
+        <member name="M:FBPRO.ProjectionHelper.ProjectionArbitrary(System.Double,System.Double,System.Double)">
+            <summary>
+            Scalar projection of one triangle side onto another (arbitrary triangle).
+            </summary>
+        </member>
+        <member name="M:FBPRO.ProjectionHelper.ProjectionIsosceles(System.Double,System.Double)">
+            <summary>
+            Scalar projection for the isosceles triangle case.
+            </summary>
+        </member>
+        <member name="M:FBPRO.ProjectionHelper.ProjectionParam(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Projection parameter t (0 = segment start, 1 = segment end). Use to check if the foot lies on the segment.
+            </summary>
+        </member>
+        <member name="M:FBPRO.ProjectionHelper.ProjectionPoint(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double@,System.Double@)">
+            <summary>
+            Foot of the perpendicular from the point onto the line (projection point).
+            </summary>
+        </member>
+    </members>
+</doc>
