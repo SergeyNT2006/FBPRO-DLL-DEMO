@@ -1,0 +1,19 @@
+# Build outputs (BENCHMARK only; root bin/ with FBPRO.dll is kept)
+/BENCHMARK/bin/
+/BENCHMARK/obj/
+**/obj/
+*.user
+*.suo
+*.cache
+
+# IDE
+.vs/
+.idea/
+*.rsuser
+
+# Benchmark report (generated when you run BENCHMARK)
+FBPRO_Benchmark_Report.html
+
+# OS
+Thumbs.db
+.DS_Store

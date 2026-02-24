@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <RootNamespace>BENCHMARK</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FBPRO">
+      <HintPath>..\bin\FBPRO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
